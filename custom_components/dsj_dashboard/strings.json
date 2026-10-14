@@ -1,0 +1,30 @@
+{
+  "title": "De Slimme Jongens Dashboard",
+  "config": {
+    "step": {
+      "user": {
+        "title": "De Slimme Jongens Dashboard",
+        "description": "Maak automatisch een dashboard vanuit je ruimtes en apparaten. Je bestaande dashboards blijven behouden. Na installatie open je De Slimme Jongens in de zijbalk."
+      }
+    },
+    "abort": {
+      "already_configured": "Het DSJ-dashboard is al ingesteld."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Vormgeving",
+        "description": "Vul bij Thema de exacte naam van een bestaand thema in, bijvoorbeeld DSJ Border. Leeg gebruikt je huidige thema. De volledige DSJ Border-themabestanden zijn niet inbegrepen. Geïnstalleerde Navroom Card en Sonos Card kunnen worden hergebruikt. Ruimte-pop-ups worden door DSJ zelf getoond.",
+        "data": {
+          "theme": "Thema (leeg = huidig thema)",
+          "accent": "Accentkleur (#b98c27)",
+          "original_cards": "Geïnstalleerde Navroom Card en Sonos Card gebruiken"
+        }
+      }
+    },
+    "error": {
+      "invalid_color": "Gebruik een kleur met zes tekens, bijvoorbeeld #b98c27."
+    }
+  }
+}
